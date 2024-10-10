@@ -17,7 +17,7 @@
 
 from uthingsboard.client import TBDeviceMqttClient
 from time import sleep
-from machine import reset, UART
+from machine import reset
 import gc
 import secrets
                                            # Make client object to connect to thingsboard
