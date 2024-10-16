@@ -33,8 +33,8 @@ while True:
             gc.collect()                  # free memory 
         
                                            
-            telemetry = {"INDSÆT DIN EGEN KEY!" : "INDSÆT DIN EGEN VALUE!"}                # store telemetry in dictionary     
-            client.send_telemetry(telemetry) #Sending telemetry  
+        telemetry = {"INDSÆT DIN EGEN KEY!" : "INDSÆT DIN EGEN VALUE!"}                # store telemetry in dictionary     
+        client.send_telemetry(telemetry) #Sending telemetry  
         sleep(1)                          # send telemetry once every second
     except KeyboardInterrupt:
         print("Disconnected!")
